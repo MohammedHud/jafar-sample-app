@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, Jafar !!"
+    return "<h1>Hello, SciTech !!</h1>"
 
 
 @app.route("/env")
